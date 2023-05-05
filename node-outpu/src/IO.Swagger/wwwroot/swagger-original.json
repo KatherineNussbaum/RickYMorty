@@ -1,7 +1,7 @@
 {
   "openapi" : "3.0.0",
   "info" : {
-    "title" : "Rick And Morty API",
+    "title" : "Rick And Morty API prueba",
     "description" : "API para obtener información sobre personajes, ubicaciones y episodios de Rick y Morty.",
     "contact" : {
       "name" : "Hogar de Cristo",

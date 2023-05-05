@@ -1,5 +1,5 @@
 /*
- * Rick And Morty API
+ * Rick And Morty API prueba
  *
  * API para obtener información sobre personajes, ubicaciones y episodios de Rick y Morty.
  *
@@ -76,8 +76,8 @@ namespace IO.Swagger
                     c.SwaggerDoc("1.0.0", new OpenApiInfo
                     {
                         Version = "1.0.0",
-                        Title = "Rick And Morty API",
-                        Description = "Rick And Morty API (ASP.NET Core 3.1)",
+                        Title = "Rick And Morty API prueba",
+                        Description = "Rick And Morty API prueba (ASP.NET Core 3.1)",
                         Contact = new OpenApiContact()
                         {
                            Name = "Hogar de Cristo",
@@ -116,10 +116,10 @@ namespace IO.Swagger
             app.UseSwaggerUI(c =>
             {
                 //TODO: Either use the SwaggerGen generated Swagger contract (generated from C# classes)
-                c.SwaggerEndpoint("/swagger/1.0.0/swagger.json", "Rick And Morty API");
+                c.SwaggerEndpoint("/swagger/1.0.0/swagger.json", "Rick And Morty API prueba");
 
                 //TODO: Or alternatively use the original Swagger contract that's included in the static files
-                // c.SwaggerEndpoint("/swagger-original.json", "Rick And Morty API Original");
+                // c.SwaggerEndpoint("/swagger-original.json", "Rick And Morty API prueba Original");
             });
 
             //TODO: Use Https Redirection

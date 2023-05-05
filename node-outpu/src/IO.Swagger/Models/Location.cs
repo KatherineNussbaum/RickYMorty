@@ -1,5 +1,5 @@
 /*
- * Rick And Morty API
+ * Rick And Morty API prueba
  *
  * API para obtener información sobre personajes, ubicaciones y episodios de Rick y Morty.
  *
